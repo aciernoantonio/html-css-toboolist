@@ -33,24 +33,62 @@ body{
 nav{
     height: 3.5rem;
     background-color: white;
+    padding: 5px;
     
     
 }
 
 .logo{
-    width: 3rem;
-    margin-top: 5px;
-    margin-left: 10px;
+    height: 3rem;
+    /* margin-top: 5px;
+    margin-left: 10px; */
+    display: inline;
+    vertical-align: middle;
 }
 
 .text_logo{
     font-size: 2rem;
     display: inline-block;
     color: var(--blue-logo);
-    
+    line-height: 3rem;
+    vertical-align: middle;
+    margin: 0;
 }
 
 /* main */
+
+.container{
+    width: 70%;
+    margin: 50px auto 0;
+    background-color: white;
+    padding-top: 10px;
+    
+}
+
+.button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--grey-background);
+}
+
+#blue{
+    background-color: var(--blue-button);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    
+}
+
+#grey{
+    background-color: white;
+    color: var(--grey-button);
+    border-color: var(--grey-button);
+    border-radius: 5px;
+    padding: 9px;
+    border-style: solid;
+}
 
 
 /* footer */
