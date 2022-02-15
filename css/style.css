@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --grey-background: #F6F8F9;
+    --lime-button: #A3D116;
+    --fuchsia-button: #EC4A9D;
+    --orange-button: #FF9B00;
+    --blue-button: #14AAF5;
+    --grey-button: #C4CBD0;
+    --green-checkmark: #2FC6AC;
+    --red-checkmark: #FF4141;
+    --purple-button: #AB5DE6;
+    --green-button: #2CC6AB;
+}
