@@ -123,12 +123,36 @@ nav{
 .blue_button{
     background-color: var(--blue-button);
     color: white;
-    padding: 8px;
+    padding: 6px;
     border-style: none;
-    border-radius: 30%;
+    border-radius: 20%;
 }
 
 .today{
     margin-top: 30px;
+}
+
+.purple_button{
+    background-color: var(--purple-button);
+    color: white;
+    padding: 6px;
+    border-style: none;
+    border-radius: 20%;
+}
+
+.green_button{
+    background-color: var(--green-button);
+    color: white;
+    padding: 6px;
+    border-style: none;
+    border-radius: 20%;
+}
+
+.red_checkmark{
+    color: var(--red-checkmark);
+    font-size: 10px;
+    border: 1px solid var(--red-checkmark);
+    border-radius: 50%;
+    padding: 3px;
 }
 /* footer */
