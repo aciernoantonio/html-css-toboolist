@@ -1,3 +1,5 @@
+/* general */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,4 +17,40 @@
     --red-checkmark: #FF4141;
     --purple-button: #AB5DE6;
     --green-button: #2CC6AB;
+    --blue-logo: #021732;
 }
+
+body{
+    background-color: var(--grey-background);
+}
+
+/* header */
+
+#header_site{
+    
+}
+
+nav{
+    height: 3.5rem;
+    background-color: white;
+    
+    
+}
+
+.logo{
+    width: 3rem;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.text_logo{
+    font-size: 2rem;
+    display: inline-block;
+    color: var(--blue-logo);
+    
+}
+
+/* main */
+
+
+/* footer */
