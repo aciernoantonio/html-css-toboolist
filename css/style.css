@@ -94,7 +94,7 @@ nav{
 .main_container{
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 
 .new_task{
@@ -155,4 +155,25 @@ nav{
     border-radius: 50%;
     padding: 3px;
 }
+
+.upcoming{
+    margin-top: 30px;
+}
+
+.fuchsia_button{
+    background-color: var(--fuchsia-button);
+    color: white;
+    padding: 6px;
+    border-style: none;
+    border-radius: 20%;
+}
+
+.lime_button{
+    background-color: var(--lime-button);
+    color: white;
+    padding: 6px;
+    border-style: none;
+    border-radius: 20%;
+}
+    
 /* footer */
